@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Circuit-Breaker Setup (The Whole Protocol on One Page) · Field Notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Instrument+Sans:ital,wght@0,400;0,600;1,400&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F4F0E6;--ink:#1B211E;--lead:#CEC7B8;--rule:#E2DCCE;--red:#B24630;--hl:#F7DE48;--muted:#5A605C}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0 auto;max-width:720px;padding:40px 24px 64px 56px;color:var(--ink);
+  font:16px/1.6 "Instrument Sans",system-ui,sans-serif;
+  background:linear-gradient(90deg,transparent 30px,var(--red) 30px,var(--red) 32px,transparent 32px)}
+.kicker{font:600 12px/1 "IBM Plex Mono",monospace;letter-spacing:.2em;text-transform:uppercase;margin:0 0 12px}
+h1{font:400 44px/1.1 "Instrument Serif",Georgia,serif;margin:0 0 14px}
+h2{font:400 26px/1.2 "Instrument Serif",Georgia,serif;margin:32px 0 10px;display:inline-block;
+  background:linear-gradient(transparent 55%,var(--hl) 55%);padding:0 4px}
+h3{font-size:17px;margin:24px 0 8px}
+blockquote{margin:12px 0;padding:10px 14px;border-left:3px solid var(--lead);
+  font:14px/1.6 "IBM Plex Mono",monospace;background:rgba(255,255,255,.35)}
+blockquote p{margin:4px 0}
+hr{border:0;border-top:1px solid var(--rule);margin:28px 0}
+a{color:var(--ink)}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+th,td{border:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+.actions{margin:0 0 20px}
+.actions a{font:600 13px/1 "IBM Plex Mono",monospace;display:inline-block;padding:10px 14px;
+  border:1.5px solid var(--ink);text-decoration:none;background:var(--hl)}
+@media print{
+  .actions{display:none}
+  html,body{background:#fff}
+  body{max-width:none;padding:0 0 0 18px;font-size:12.5px;
+    background:linear-gradient(90deg,transparent 4px,var(--red) 4px,var(--red) 5px,transparent 5px)}
+  h1{font-size:32px} h2{font-size:20px;margin-top:18px}
+  blockquote{font-size:11.5px;break-inside:avoid}
+  h2,h3{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<p class="kicker">Simon Gebhart's Field Notes · Protocol Card</p>
+<h1>The Circuit-Breaker Setup (The Whole Protocol on One Page)</h1>
+<p class="actions"><a href="doomscrolling-circuit-break.pdf" download>Download printable PDF</a></p>
+<p><em>The complete tool from</em> <strong>Your Phone Won, Your Willpower Didn't Lose</strong> <em>by Simon Gebhart.</em></p>
+<hr />
+<p>This page is the book. If you skipped everything and landed here, you can run the whole thing from this checklist tonight — each line carries its evidence tag, and the chapters behind you hold the details and caveats.</p>
+<h2>The setup — ~20 minutes, once</h2>
+<p><strong>Step 1 — Grayscale (about 5 minutes)</strong> <em>(randomized field experiment: design friction cut objectively measured screen time immediately, beating self-committed time limits)</em></p>
+<ul>
+<li>[ ] Turn on grayscale: iPhone — Settings → Accessibility → Display &amp; Text Size → Color Filters → Grayscale. Android — search Settings for &quot;grayscale&quot; or &quot;color correction.&quot;</li>
+<li>[ ] Build the escape hatch: iPhone — Accessibility Shortcut → Color Filters (triple-click toggles color). Android — add the grayscale quick-settings tile.</li>
+<li>[ ] Rule of use: toggling color for maps, photos, or a chart is a decision, not a defeat. What to expect: the feed looks like homework. That's the mechanism, not a bug.</li>
+</ul>
+<p><strong>Step 2 — Batch notifications to three windows (about 10 minutes)</strong> <em>(randomized field experiment, n = 237: three daily batches → more attentive, better mood, more control, lower stress, fewer interruptions; notifications OFF entirely → higher anxiety and FoMO)</em></p>
+<ul>
+<li>[ ] Pick three windows anchored to your routine (e.g., 8:00, 12:30, 6:00).</li>
+<li>[ ] iPhone — Settings → Notifications → Scheduled Summary → your three times → add your five noisiest apps. Android — scheduled Do Not Disturb between windows, and/or set noisy apps' notifications to silent delivery.</li>
+<li>[ ] Keep calls, real texts, and calendar alerts live. Do NOT turn everything off — that's the arm that backfired. What to expect: a day or two of phantom-check urges, then the checking clusters around your windows.</li>
+</ul>
+<p><strong>Step 3 — The 10-minute feed audit</strong> <em>(two randomized experiments run during the pandemic, N = 299 and N = 603: 2–4 minutes of negative news measurably dropped mood — kindness content didn't)</em></p>
+<ul>
+<li>[ ] Open your most-scrolled app. Mute or unfollow the last five accounts that reliably make you feel worse.</li>
+<li>[ ] Follow two accounts you'd want in front of you at 11 p.m.</li>
+<li>[ ] News lives in your batch windows now, not in the ambient drip. What to expect: the feed feels oddly quiet for a few days. Let it.</li>
+</ul>
+<p><strong>The grade, two weeks out:</strong> where did the evening hours go? <em>(The same grayscale trial found no immediate well-being gain from cutting screen time — so grade this in hours reclaimed, not mood.)</em></p>
+<h2>The two maintenance rules</h2>
+<p><strong>The deliberate-exception rule.</strong> Color back on for a vacation's photos? Notifications live for the day you're expecting the call? Fine — that's a decision, made in advance, with an end point. A decision is not a relapse. The setup serves your life, not the reverse.</p>
+<p><strong>The relapse rule.</strong> Some night next month you may look up and find yourself full-color, pings on, three hours gone. Here is the entire required response: re-run the 20-minute setup. That's it. No inquest into your character, no streak reset, no penance week. You already know the guilt ritual doesn't work — you counted its results in section one.</p>
+<p>This rule is the quiet reason the setup beats willpower at its own game. Willpower has to win every single night, forever, and one loss starts the shame spiral that ends in the 1:40 a.m. scroll. The setup only has to be <em>re-run</em> — once, in 20 minutes, any evening you notice it's eroded. Cheap to redo is the strongest thing a defense can be.</p>
+<p><strong>Do this now:</strong> Print or screenshot this page. Then look at the three checklists above: if any box isn't done yet, finish it now. The entire setup is 20 minutes end to end — and you've spent longer than that scrolling tonight. That's not a guilt trip. It's a budget comparison, and for once it's in your favor.</p>
+<hr />
+<p>More printable cards like this, free: <a href="https://simongebhart.beehiiv.com?utm_source=doomscrolling-circuit-break&amp;utm_medium=card&amp;utm_campaign=protocol-card">Simon Gebhart's Field Notes</a></p>
+<p>The full guide: amazon.com/dp/B0H7XVW27B</p>
+
+</body>
+</html>
